@@ -51,12 +51,6 @@
     <child link="tower" />
   </joint>
 
-  <joint type="fixed" name="camera_joint">
-    <origin xyz="0.3 0 0.1" rpy="0 0 0"/>
-    <child link="camera"/>
-    <parent link="tower"/>
-  </joint>
-
   <joint type="fixed" name="hokuyo_joint">
     <origin xyz="0.15 0 0.2" rpy="0 0 0"/>
     <child link="hokuyo"/>
