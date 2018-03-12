@@ -8,7 +8,7 @@
     <color rgba="0.0 0.0 0.8 1.0"/>
   </material>
   <material name="Red">
-    <color rgba="0.8 0.0 0.0 1.0"/>
+    <color rgba="0.8 0.s0 0.0 1.0"/>
   </material>
   <material name="Green">
     <color rgba="0.0 0.8 0.0 1.0"/>
@@ -107,7 +107,7 @@
     <visual>
       <origin xyz=" 0 0 0 " rpy="0 0 0" />
       <geometry>
-        <mesh filename="package://sweeping_bot/meshes/kinect.dae"/>
+        <mesh filename="package://slam_project/meshes/kinect.dae"/>
       </geometry>
     </visual>
 
