@@ -17,7 +17,7 @@ cd ~/catkin_ws/src && git clone https://github.com/introlab/rtabmap_ros
 
 ## How To Use
 
-1. Launch the gazebo world and your robot.
+1. Launch the gazebo world and the robot.
 ```
 roslaunch slam_project world.launch world_file:=~/catkin_ws/src/slam_project/worlds/kitchen_dining.world
 ```
