@@ -10,9 +10,11 @@ The goal of the project is to create a 2D occupancy grid and 3D octomap from a p
 apt-get update && apt-get install ros-kinetic-depthimage-to-laserscan
 ```
 
-2. Add the `rtabmap_ros` package.
+2. Add the `rtabmap_ros` package and build.
 ```
 cd ~/catkin_ws/src && git clone https://github.com/introlab/rtabmap_ros
+cd ..
+catkin_make
 ```
 
 ## How To Use
